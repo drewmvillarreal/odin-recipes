@@ -1,17 +1,28 @@
 /* class is .
     id is # */
+body{
+    background-color: black;
+}
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    color:aliceblue
 }
 #landing{
     color: maroon;
     text-align: center;
 }
 .return{
-    background-color: green;
+    background-color: rgb(36, 242, 36);
 }
 .one{
-    background-color: aqua;
+    background-color: rgba(27, 91, 91, 0.58);
     font-weight: bold;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container button{
+    flex: 1;
+    padding: 10px;
 }
