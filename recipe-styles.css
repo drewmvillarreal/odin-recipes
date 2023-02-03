@@ -18,11 +18,12 @@ body{
     padding: 10px
 }
 .one{
-    background-color: rgba(27, 91, 91, 0.58);
+    background-color: rgba(5, 244, 244, 0.58);
     font-weight: bold;
 }
 .flex-container{
     display: flex;
+    flex-direction: column;
 }
 .flex-container button{
     flex: 1;
